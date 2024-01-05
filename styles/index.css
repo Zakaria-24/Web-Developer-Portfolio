@@ -9,6 +9,7 @@ nav {
     /* justifi content 2ta content k tader last borabor niye giye tader majhe gap creat kore  */
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 
 .primary-color {
@@ -39,7 +40,7 @@ nav {
 nav>ul {
     display: flex;
     list-style: none;
-    
+
     /* 2ta content k parallal borabor niye ase  */
     align-items: center;
 }
@@ -57,4 +58,22 @@ nav a {
 
 nav button {
     display: flex;
+}
+
+.header {
+    background: #FFF8F3;
+}
+
+.banner-details {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-greating {
+    color: var(--Dark-02, #474747);
+}
+
+.banner-heading {
+    color: var(--Dark-01, #181818);
 }
