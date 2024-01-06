@@ -141,9 +141,11 @@ main {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
+
 .info-title {
     color: var(--Dark-03, #757575);
     text-align: center;
@@ -162,4 +164,17 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
