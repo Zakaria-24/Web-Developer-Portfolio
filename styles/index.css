@@ -259,7 +259,7 @@ footer {
     /* 175% */
 }
 
-.contact input,
+.contact input[type="text"], input[type="email"]
 textarea {
     display: block;
     margin-bottom: 25px;
@@ -270,3 +270,4 @@ textarea {
     border: 0;
 
 }
+.contact .btn-primary
