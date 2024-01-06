@@ -110,6 +110,10 @@ nav button {
 main {
     width: 1140px;
     margin: 0px auto;
+
+}
+main section{
+    margin-top: 130px;
 }
 
 /* about section  */
